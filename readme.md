@@ -12,7 +12,12 @@ l'initialisation du back a été faite, j'ai supprimé le read.me du dossiers fr
 
 Après avoir créer le back, je vais faire un repo github
 
+# Base de données
+
+J'ai relié la databse avec le backend avec l'aide d'un collègue, c'étit plutôt intéressant et je me suis bien amusé, je n'ai pas eu de difficultés particulières, les explications étaients claires et précises.
+
 # Description du projet
 
 Mon projet est de créer un guide pour les objets a tenir dans pokémon, ou "objets strats" comme j'aime les appeller. il regroupera tout les types d'objet a tenir expliquant comment s'en servir et sur quels pokémons il est le plus pertinant.
+
 # strat-poke

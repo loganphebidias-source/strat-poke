@@ -15,7 +15,7 @@ const db = new Pool({
 const app = express();
 app.use(cors());
 
-app.get("/", async (_req, res) => {
+app.get("/logs", async (_req, res) => {
   const { rows } = await db.query("select * from strategy");
   res.json(rows);
 });

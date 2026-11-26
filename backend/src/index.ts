@@ -20,6 +20,13 @@ app.get("/logs", async (_req, res) => {
   res.json(rows);
 });
 
+app.get("/logs/:id", async (req, res) => {
+  const { rows } = await db.query("select * from strategy where id= $1", [
+    Number(req.params.id),
+  ]);
+  res.json(rows[0]);
+});
+
 app.listen(PORT, () => {
   console.log(`API available on http://localhost:${PORT} !`);
 });
